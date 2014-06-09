@@ -1,0 +1,10 @@
+name: MartinHH
+markdown: kramdown
+pygments: true
+safe: true
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      author: "Martin"
