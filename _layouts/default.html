@@ -19,8 +19,8 @@
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
               <a class="extra" href="/">Home</a>
-              {% for page in site.pages %}
-                {% if page.title != 'MartinHH' %}
+              {% for page in site.pages  | reverse %}
+                {% if page.indexed %}
                 <a class="extra" href="{{ page.url }}">{{ page.title }}</a>
                 {% endif %}
               {% endfor %}
@@ -37,7 +37,7 @@
             </div>
             <div class="contact">
               <p>
-                <a href="https://github.com/yourusername">github.com/MartinHH</a><br />
+                <a href="https://github.com/MartinHH">github.com/MartinHH</a><br />
               </p>
             </div>
           </div>
