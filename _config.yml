@@ -2,6 +2,7 @@ name: MartinHH
 markdown: kramdown
 pygments: true
 safe: true
+permalink: /:year/:month/:day/:title/
 defaults:
   -
     scope:
