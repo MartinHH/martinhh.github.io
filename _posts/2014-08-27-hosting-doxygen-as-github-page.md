@@ -11,7 +11,7 @@ I decided to include the `gh-pages` branch as a submodule of the `master` branch
 
 ## Disclaimer
 
-Including the Doxygen-Github-pages as a submodule is not the ultimate solution for the problem. Submodules can be confusing if you're not used to them and I'm not sure if I'd recommend it. The following is just a guide how to get it done in case you want to give it a try.
+Including the Doxygen-Github-pages as a submodule might not be the ultimate solution for the problem. Submodules can be confusing if you're not used to them and I'm not sure if I'd recommend it. The following is just a guide how to get it done in case you want to give it a try.
 
 ## Pre-Conditions
 
